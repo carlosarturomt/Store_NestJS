@@ -9,7 +9,7 @@ export const Header = () => {
           <Link href='/'><li className="hover:bg-white/10 py-1 px-2">Home</li></Link>
           <Link href='/store'><li className="hover:bg-white/10 py-1 px-2">Store</li></Link>
           <Link href='/store/Tech'><li className="hover:bg-white/10 py-1 px-2">Tech</li></Link>
-          <Link href='/hero'><li className="hover:bg-white/10 py-1 px-2">Hero</li></Link>
+          <Link href='/test'><li className="hover:bg-white/10 py-1 px-2">Test</li></Link>
         </ul>
       </nav>
     </header>
