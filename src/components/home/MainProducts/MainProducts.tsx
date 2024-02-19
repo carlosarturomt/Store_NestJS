@@ -3,7 +3,9 @@ import { getProducts } from "app/services/shopify"
 import styles from './MainProducts.module.sass'
 
 export const MainProducts = async () => {
-  const products = await getProducts()
+  const response = await fetch('http://localhost:3000/api')
+  const { products } = await response.json()
+  //const products = await getProducts()
   //console.log(products)
   return (
     <section className={styles.MainProducts}>
